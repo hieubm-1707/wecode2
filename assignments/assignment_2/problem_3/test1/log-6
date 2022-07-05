@@ -1,0 +1,151 @@
+
+Starting tester...
+/home/ubuntu/wecode2/assignments/problems/3 /home/ubuntu/wecode2/assignments/assignment_2/problem_3/test1 /home/ubuntu/wecode2/assignments/assignment_2/problem_3/test1/result-6.html /home/ubuntu/wecode2/assignments/assignment_2/problem_3/test1/log-6 solution-6 cpp 0.5 1 50000 1048576 diff -bB 1
+diff argu -bB
+Wed May 13 06:07:21 UTC 2020
+Language: cpp
+Time Limit: 0.5 s
+Memory Limit: 50000 kB
+Output size limit: 1048576 bytes
+C/C++ Shield: 
+Compiling as cpp
+Compiled. Exit Code=0  Execution Time: 1432 ms
+
+Testing...
+12 test cases found
+
+=== TEST 1 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input1.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input1.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input1.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+
+ACCEPTED
+
+=== TEST 2 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input2.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input2.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input2.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 3 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input3.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input3.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input3.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+
+ACCEPTED
+
+=== TEST 4 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input4.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input4.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input4.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 5 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input5.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input5.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input5.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 6 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input6.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input6.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input6.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 7 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input7.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input7.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input7.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 8 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input8.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input8.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input8.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 9 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input9.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input9.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input9.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 10 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input10.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input10.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input10.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 11 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input11.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input11.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input11.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+=== TEST 12 ===
+/home/ubuntu/wecode2/tester/run_judge_in_docker.sh /home/ubuntu/wecode2/tester/jail-9311 gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input12.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6
+docker run --rm -v /home/ubuntu/wecode2/tester/jail-9311:/work:rw --name=root-jail-9311 --network none -u0 -w /work gcc:6 ./runcode.sh cpp 50000 0.5 1 ./input12.txt ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 SHIT timeout -s9 2 ./timeout --just-kill -nosandbox -l 1048576 -t 0.5 -m 50000 ./s_solution6 <./input12.txt >out 2>err
+exit code 0
+Exit Code = 0
+err file:SHJ_FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0
+Time: 0.00 s
+Mem: 0 kib
+1c1
+WRONG
+
+Score from 10000: 1666
+
+Total Execution Time: 15069 ms

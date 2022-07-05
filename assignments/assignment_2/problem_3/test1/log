@@ -1,0 +1,2 @@
+cd /home/ubuntu/wecode2/tester;
+./tester.sh /home/ubuntu/wecode2/assignments/problems/3 /home/ubuntu/wecode2/assignments/assignment_2/problem_3/test1 /home/ubuntu/wecode2/assignments/assignment_2/problem_3/test1/result-6.html /home/ubuntu/wecode2/assignments/assignment_2/problem_3/test1/log-6 'solution-6' cpp 0.5 1 50000 1048576 diff '-bB' 1 

@@ -1,0 +1,22 @@
+
+Starting tester...
+/home/ubuntu/wecode2/assignments/problems/1 /home/ubuntu/wecode2/assignments/assignment_2/problem_1/test1 /home/ubuntu/wecode2/assignments/assignment_2/problem_1/test1/result-1.html /home/ubuntu/wecode2/assignments/assignment_2/problem_1/test1/log-1 solution-1 cpp 0.5 1 50000 1048576 diff -bB 1
+diff argu -bB
+Wed May 13 05:45:44 UTC 2020
+Language: cpp
+Time Limit: 0.5 s
+Memory Limit: 50000 kB
+Output size limit: 1048576 bytes
+C/C++ Shield: 
+Compiling as cpp
+Compiled. Exit Code=110  Execution Time: 37 ms
+Compile Error
+code.cpp: forbidden phrase: "for" is banned
+code.cpp: forbidden phrase: "while" is banned
+code.cpp: forbidden phrase: "if" is banned
+code.cpp: forbidden phrase: "switch" is banned
+code.cpp: forbidden phrase: ";" is banned
+code.cpp: forbidden phrase: "?" is banned
+code.cpp: forbidden phrase: ":" is banned
+
+Total Execution Time: 91 ms
